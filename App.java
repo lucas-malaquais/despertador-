@@ -14,7 +14,7 @@ public class App {
             }
         };
 
-        // Agendando a tarefa para rodar a cada 5 minutos (300.000 milissegundos)
+        // Agendando a tarefa para rodar a cada 5 minutos 
         timer.scheduleAtFixedRate(tarefa, 0, 10000);
     }
 }
